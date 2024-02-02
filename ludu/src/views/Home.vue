@@ -97,7 +97,7 @@
           <p>¡Se los ve muy felices!</p>
         </div>
         <div class="carousel-item">
-          <video width="414" height="474" controls>
+          <video width="100%" height="450px" controls>
             <source src="../assets/fotos/video1.mp4" type="video/mp4" />
             Your browser does not support the video tag.
           </video>
@@ -173,6 +173,7 @@ p {
   }
 }
 video {
-  margin-bottom: 3rem;
+widows: 100%;
+  margin-bottom: 5rem;
 }
 </style>
