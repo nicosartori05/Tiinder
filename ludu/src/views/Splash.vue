@@ -6,17 +6,17 @@ const router = useRouter();
 
 
 const redirectToHome = () => {
-  setTimeout(() => {
+  // setTimeout(() => {
     router.push({ name: 'home' }); // Cambia 'home' por el nombre de tu ruta al componente home
-  }, 2000); // 2000 milisegundos = 2 segundos
+  // }, 2000); // 2000 milisegundos = 2 segundos
 }
 
-onMounted(() => {
-  redirectToHome();
-});
+// onMounted(() => {
+//   redirectToHome();
+// });
 </script>
 
-<template>
+<template @click="redirectToHome()">
   <router-link to="home">
     <div>
       <img src="../assets/logo-Tinder.png" alt="" />
